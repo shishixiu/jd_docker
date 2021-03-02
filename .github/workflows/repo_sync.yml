@@ -1,6 +1,6 @@
 # File: .github/workflows/repo-sync.yml
 name: sync-jd_docker
-on:
+on: 
   schedule:
     - cron: '1 0,15 * * *'
   workflow_dispatch:
